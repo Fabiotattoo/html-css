@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/imagens-cap19/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
 
+            /* Shorthand - background - color > image > posirion > repeat > [size]  > attachment
+            */
+            background: black url('imagens/imagens-cap19/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +33,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis fuga cum recusandae, aperiam illum eaque minima nobis quia obcaecati laboriosam exercitationem fugiat. Praesentium, maxime excepturi commodi voluptatibus distinctio odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, qui quaerat assumenda pariatur, nesciunt est cupiditate aliquid, neque voluptate in magnam ratione ullam placeat rem ipsum nemo dolor tempora possimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quisquam excepturi tenetur veritatis omnis sint corrupti officiis animi porro, laborum nobis aliquid aspernatur iste! Debitis, fugiat eius. Minima, dolor ex?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis fuga cum recusandae, aperiam illum eaque minima nobis quia obcaecati laboriosam exercitationem fugiat. Praesentium, maxime excepturi commodi voluptatibus distinctio odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, qui quaerat assumenda pariatur, nesciunt est cupiditate aliquid, neque voluptate in magnam ratione ullam placeat rem ipsum nemo dolor tempora possimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quisquam excepturi tenetur veritatis omnis sint corrupti officiis animi porro, laborum nobis aliquid aspernatur iste! Debitis, fugiat eius. Minima, dolor ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia a molestiae praesentium aliquam ullam, eveniet illum ratione distinctio porro unde impedit dolore ipsa omnis deserunt quod corrupti fugiat nobis doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti similique, ab nulla quas velit minima praesentium natus amet molestias aspernatur veniam nihil repudiandae libero ad recusandae! Sunt, voluptatibus rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum reiciendis debitis aut ratione voluptatum non illo eveniet vero ipsum voluptates unde officia et, natus rem iusto velit in commodi laborum!</p>
     </main>
 </body>
 </html>
